@@ -67,6 +67,11 @@
   margin-right: 20px;
 }
 
+.ShopCardContent {
+  width: 100%;
+  height: 100%;
+}
+
 .ShopCardContent p {
   margin: 0;
   font-size: 1rem;
@@ -81,4 +86,29 @@
 
 .CartContent p {
   font-size: 0.9rem;
+}
+
+.CartButton {
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+}
+
+.CartButton p {
+  font-size: 1.25rem;
+}
+
+.CartButton p span {
+  font-size: 1.5rem;
+}
+
+.CartButton p span:first-of-type {
+  color: red;
+}
+
+.CartButton p span:nth-of-type(2) {
+  color: green;
 }
