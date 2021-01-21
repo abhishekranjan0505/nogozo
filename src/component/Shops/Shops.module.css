@@ -1,0 +1,45 @@
+.ShopCard {
+  width: 90%;
+  box-shadow: 0 0 10px #c1c1c1;
+  margin: auto;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.ShopCard p {
+  margin: 0;
+}
+
+.ShopName {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.ShopAddress {
+  display: flex;
+  margin-top: 5px;
+}
+
+.ShopAddress img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.ShopAddress p {
+  font-weight: 600;
+}
+
+.ShopStatus {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.ShopStatus p:nth-of-type(1) {
+  color: green;
+}
+
+.ShopStatus p:nth-of-type(2) {
+  color: blue;
+}

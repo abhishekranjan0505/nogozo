@@ -1,0 +1,36 @@
+.Root {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: blue;
+  z-index: 999;
+}
+
+.Header {
+  padding: 10px;
+}
+
+.HeaderUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HeaderUser h1 {
+  margin: 0;
+}
+
+.HeaderUser img {
+  width: 32px;
+  padding: 5px;
+}
+
+.Root input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+}
