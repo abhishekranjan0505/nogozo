@@ -5,6 +5,7 @@ import Header from "../src/component/Header/Header.js";
 import HomePage from "./component/HomePage/HomePage";
 import ShopsPage from "./component/Shops/Shops";
 import ShopPage from "./component/Shop/Shop";
+import Cart from "./component/Cart/Cart";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route path="/shops/shop" component={ShopPage} />
           <Route path="/shops" component={ShopsPage} />
+          <Route path="/cart" component={Cart} />
         </Switch>
       </section>
     </div>
