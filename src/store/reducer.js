@@ -1,4 +1,3 @@
-import { act } from "react-dom/test-utils";
 import image from "../assets/Shop/Items/image.jpeg";
 import itemImage from "../assets/Shop/Items/itemImage.jpeg";
 
