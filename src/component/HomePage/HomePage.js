@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./HomePage.module.css";
 import diwaliImg from "../../assets/HomePage/diwali.png";
+import { Link } from "react-router-dom";
 
 const homePage = () => {
   const categories = [
@@ -20,10 +21,15 @@ const homePage = () => {
         {categories.map((category) => {
           return (
             <div key={category.id} className={classes.CategoryCard}>
+              <Link
+                to="/shops"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
                 <div className={classes.CategoryCardContent}>
-              <img src={category.img} alt="" />
-              <p>{category.title}</p>
-              </div>
+                  <img src={category.img} alt="" />
+                  <p>{category.title}</p>
+                </div>
+              </Link>
             </div>
           );
         })}

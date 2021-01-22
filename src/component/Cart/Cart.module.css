@@ -1,0 +1,63 @@
+.Root {
+  padding: 0 20px;
+}
+
+.Root h5 {
+  margin: 0;
+}
+
+.ItemName {
+  margin: 0;
+}
+
+.Root select {
+  width: 90%;
+  border: none;
+  padding: 10px;
+  margin: 10px auto;
+  display: grid;
+  align-self: center;
+  outline: none;
+}
+
+.Root select option {
+  outline: none;
+}
+
+.Root input {
+  width: 98%;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: black;
+  outline: none;
+  margin: 20px auto;
+  display: grid;
+  align-self: center;
+}
+
+.ItemTotal,
+.DeliveryCharges,
+.GrandTotal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.ItemTotal p,
+.DeliveryCharges p,
+.GrandTotal p {
+  margin: 0;
+}
+
+.ItemTotal {
+  margin-top: 20px;
+}
+
+.ItemTotal p,
+.DeliveryCharges p {
+  font-size: 0.8rem;
+}
+
+.GrandTotal p {
+  font-size: 1.25rem;
+}

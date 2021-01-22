@@ -3,22 +3,23 @@
   border-radius: 0 0 10px 10px;
   position: fixed;
   left: 0;
-  top: 105px;
+  top: 85px;
   width: 100%;
-  padding: 10px;
+  padding: 5px 10px;
   box-sizing: border-box;
   background-color: #ffffff;
   z-index: 500;
 }
 
 .ShopIntro h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
   color: blue;
 }
 
 .ShopIntro p {
   margin: 0;
   color: blue;
+  font-size: 0.9rem;
 }
 
 .Phone {
@@ -42,14 +43,14 @@
   border-radius: 4px;
   width: 100%;
   padding: 5px 0;
-  font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
-  margin: 10px 0 5px 0;
+  margin: 5px 0;
+  cursor: pointer;
 }
 
 .ShopCards {
-  margin: 310px 10px 0 10px;
+  margin: 255px 10px 60px 10px;
 }
 
 .ShopCard {
@@ -66,6 +67,11 @@
   margin-right: 20px;
 }
 
+.ShopCardContent {
+  width: 100%;
+  height: 100%;
+}
+
 .ShopCardContent p {
   margin: 0;
   font-size: 1rem;
@@ -80,4 +86,55 @@
 
 .CartContent p {
   font-size: 0.9rem;
+}
+
+.CartButton {
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+}
+
+.CartButton p {
+  font-size: 1.25rem;
+}
+
+.CartButton p span {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.CartButton p span:first-of-type {
+  color: red;
+}
+
+.CartButton p span:nth-of-type(2) {
+  color: green;
+}
+
+.ShopCart {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px -2px 2px #c1c1c1;
+}
+
+.ShopCartContent {
+  margin: 5px 10px 10px 10px;
+  background-color: blue;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.ShopCartContent p {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  line-height: 0.8rem;
+  font-size: 0.8rem;
 }

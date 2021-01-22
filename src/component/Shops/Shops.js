@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./Shops.module.css";
 import addressSvg from "../../assets/Shops/address.svg";
 
@@ -43,9 +44,13 @@ const shopsPage = () => {
 
   return (
     <div className={classes.Root}>
-        {shops.map((shop) => {
-          return (
-            <div key={shop.id} className={classes.ShopCard}>
+      {shops.map((shop) => {
+        return (
+          <div key={shop.id} className={classes.ShopCard}>
+            <Link
+              to="/shops/shop"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
               <div className={classes.ShopCardContent}>
                 <p className={classes.ShopName}>{shop.name}</p>
                 <div className={classes.ShopAddress}>
@@ -57,10 +62,11 @@ const shopsPage = () => {
                   <p> {shop.type}</p>
                 </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            </Link>
+          </div>
+        );
+      })}
+    </div>
   );
 };
 
